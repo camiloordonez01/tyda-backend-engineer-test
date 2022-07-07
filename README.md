@@ -9,7 +9,7 @@ A continuacion, enumero los pasos a seguir para poder correr el test entregado.
 3. Abrir el archivo .env.local y cambiar las variable de la base de datos
 4. Ahora abrir la terminal y correr npm install (Hay que tener instalado una versión estable de node js)
 5. Una vez finalizado ya estaría listo para correr cualquiera de los siguientes comandos
-    - npm run dev: Es para correr aplicación en desarrollo por el puerto 300
+    - npm run dev: Es para correr aplicación en desarrollo por el puerto 3000
     - npm run test: Para corer las pruebas unitarias
 
 Ahora se crearon los siguientes endpoints:
