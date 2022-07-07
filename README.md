@@ -1,5 +1,7 @@
-GUIA
-Tyba Backend Engineer test
+# GUIA
+
+## Tyba Backend Engineer test
+
 A continuacion, enumero los pasos a seguir para poder correr el test entregado.
 
 1. Crear una base de datos con cualquier nombre (ej: tyda). Debe ser mysql
@@ -11,12 +13,16 @@ A continuacion, enumero los pasos a seguir para poder correr el test entregado.
    npm run test: Para corer las pruebas unitarias
 
 Ahora se crearon los siguientes endpoints:
-POST http://localhost:3000/users/signin
-Body { “email”: “correo”, “password”: “contraseña”}
 
-POST http://localhost:3000/users/signup
-Body { “email”: “correo”, “password”: “contraseña”}
+## POST http://localhost:3000/users/signin
 
-POST http://localhost:3000/users/restaurants
-Body { "latitud": "4.7576142", "longitud": "-75.9347" }
-Headers { “authorization”: “Token”}
+-   Body { “email”: “correo”, “password”: “contraseña”}
+
+## POST http://localhost:3000/users/signup
+
+-   Body { “email”: “correo”, “password”: “contraseña”}
+
+## POST http://localhost:3000/users/restaurants
+
+-   Body { "latitud": "4.7576142", "longitud": "-75.9347" }
+-   Headers { “authorization”: “Token”}
